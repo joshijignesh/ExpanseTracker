@@ -39,7 +39,7 @@ const StatisticsScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Header showLeftButton title="Add Expanse" />
+      <Header showLeftButton title="Statistics" />
 
       <View style={styles.innerContinaer}>
 

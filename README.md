@@ -59,6 +59,61 @@ Now that you have successfully run the app, let's modify it.
 
 You've successfully run and modified your React Native App. :partying_face:
 
+# App Screenshots for Reference
+
+This document provides reference screenshots for the main screens of the app. Below are the details of each screen with a description of its functionality.
+
+---
+
+## Login Screen
+
+The **Login Screen** allows users to log in to the app by entering their email and password. It also provides an option to navigate to the **Sign-Up** screen for new users.
+
+![Login Screen](app/assets/screenshots/login_screen.png)
+
+---
+
+## Sign-Up Screen
+
+The **Sign-Up Screen** enables new users to create an account by entering their email, password, and confirming their password. It also allows users to navigate to the **Login** screen if they already have an account.
+
+![Sign-Up Screen](app/assets/screenshots/signup_screen.png)
+
+---
+
+## Home Screen (Show List of Expenses)
+
+The **Home Screen** displays a list of the user’s expenses, providing an overview of the amounts and descriptions of the expenses. Users can add new expenses or view existing ones.
+
+![Home Screen](app/assets/screenshots/home_screen.png)
+![Home Screen](app/assets/screenshots/home_screen_2.png)
+![Home Screen](app/assets/screenshots/home_screen_3.png)
+
+---
+
+## Preferences Screen
+
+The **Preferences Screen** allows users to set their spending limits for weekly and monthly budgets. It dynamically updates the monthly limit based on changes made to the weekly limit.
+
+![Preferences Screen](app/assets/screenshots/preferences_screen.png)
+
+---
+
+## Add Expense Screen
+
+The **Add Expense Screen** enables users to input new expenses by providing fields for the amount, description, and category of the expense. Once entered, the user can save the expense and return to the **Home Screen**.
+
+![Add Expense Screen](app/assets/screenshots/add_expense_screen.png)
+
+---
+
+## Statistics Screen
+
+The **Statistics Screen** provides a detailed report of the user’s expenses for the last 7 days as well as the entire month. It allows users to see an overview of their spending trends over time.
+
+![Statistics Screen](app/assets/screenshots/statistics_screen.png)
+
+
 ### Now what?
 
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
