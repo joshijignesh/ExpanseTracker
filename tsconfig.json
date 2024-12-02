@@ -1,3 +1,37 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-native",
+    "types": ["socket.io-client"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "@components/*": ["app/components/*"],
+      "@screens/*": ["app/screens/*"],
+      "@assets/*": ["app/assets/*"],
+      "@utils/*": ["app/utils/*"],
+      "@hooks/*": ["app/hooks/*"],
+      "@navigation/*":["app/navigation/*"],
+      "@app-redux/*":["app/redux/*"],
+      "@provider/*":["app/provider/*"],
+    },
+    "lib": ["esnext", "dom"]
+  },
+  "include": [
+    "./app/**/*",
+    "./index.js",
+    "./.eslintrc.js",
+    "./react-native.config.js",
+    "metro.config.js",
+    "./__tests__/*",
+    "declaration.d.ts"
+  ],
+  "exclude": ["node_modules", "babel.config.js", "jest.config.js"]
 }
